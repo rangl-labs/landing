@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Vehicle grid integration',
     imageURL: "img/tesla.jpg",
-    link: "docs/challenges/vgi",
+    link: "vgi",
     description: (
       <>
         Make electric vehicle charging work sustainably in a neighbourhood.
@@ -40,12 +40,12 @@ function Feature({ imageURL, title, link, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <a href={link}>
+        <a href={link} target="_blank">
           <Image img={imageURL} />
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+      <a href={link} target="_blank"><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>
