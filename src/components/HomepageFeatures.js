@@ -25,12 +25,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Net Zero Technology Centre',
+    title: 'Net Zero Technology Centre challenge',
     imageURL: "img/nztc.jpg",
     link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
     description: (
       <>
-        Energy deployment for net-zero 2050.
+        Find the optimal pathway to a carbon neutral 2050.
       </>
     ),
   },
