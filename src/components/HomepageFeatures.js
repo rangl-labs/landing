@@ -17,7 +17,7 @@ const FeatureList = [
   {
     title: 'Vehicle grid integration',
     imageURL: "img/tesla.jpg",
-    link: "vgi",
+    link: "docs/challenges/vgi",
     description: (
       <>
         Make electric vehicle charging work sustainably in a neighbourhood.
