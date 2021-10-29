@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Net Zero Technology Centre',
-    imageURL: "img/wind.jpg",
+    imageURL: "img/nztc.jpg",
     link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
     description: (
       <>
@@ -45,7 +45,7 @@ function Feature({ imageURL, title, link, description }) {
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-      <a href={link} target="_blank"><h3>{title}</h3></a>
+        <a href={link} target="_blank"><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>
