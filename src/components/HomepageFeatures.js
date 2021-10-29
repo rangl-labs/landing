@@ -5,8 +5,9 @@ import Image from '@theme/IdealImage';
 
 const FeatureList = [
   {
-    title: 'Optimal power flow',
+    title: 'Generation Scheduling',
     imageURL: "img/wind.jpg",
+    link: "http://challenges.rangl.org/web/challenges/challenge-page/1/overview",
     description: (
       <>
         Schedule a power system to run super-efficiently.
@@ -16,6 +17,7 @@ const FeatureList = [
   {
     title: 'Vehicle grid integration',
     imageURL: "img/tesla.jpg",
+    link: "vgi",
     description: (
       <>
         Make electric vehicle charging work sustainably in a neighbourhood.
@@ -24,7 +26,8 @@ const FeatureList = [
   },
   {
     title: 'Net Zero Technology Centre',
-    imageURL: "img/wind.jpg",
+    imageURL: "img/nztc.jpg",
+    link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
     description: (
       <>
         Energy deployment for net-zero 2050.
@@ -33,14 +36,16 @@ const FeatureList = [
   },
 ];
 
-function Feature({ imageURL, title, description }) {
+function Feature({ imageURL, title, link, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Image img={imageURL} />
+        <a href={link} target="_blank">
+          <Image img={imageURL} />
+        </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <a href={link} target="_blank"><h3>{title}</h3></a>
         <p>{description}</p>
       </div>
     </div>
