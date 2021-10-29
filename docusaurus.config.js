@@ -64,12 +64,12 @@ const config = {
           src: 'img/rangl-logo.png',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Docs',
-          // },
+          {
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Docs',
+          },
           { to: 'https://www.turing.ac.uk/research/research-projects/ai-control-problems', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/rangl-labs/landing',
