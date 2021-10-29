@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="http://rangl.org">
+            to="https://docs.google.com/forms/d/e/1FAIpQLSdyFCd55fPasdq-30GQ1Hl4m_L5GgTULZ0WWO0GCLbiyKx8ag/viewform">
             Sign up
           </Link>
         </div>
