@@ -14,4 +14,3 @@ But we also have a number of past challenges:
 
 1. [Generation scheduling](http://challenges.rangl.org/web/challenges/challenge-page/1/overview)
 2. [Vehicle grid integration](challenges/vgi.md)
-3. [Optimal power flow](challenges/opf.md)
