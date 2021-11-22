@@ -68,7 +68,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Docs',
+            label: 'In Development',
           },
           { to: 'https://www.turing.ac.uk/research/research-projects/ai-control-problems', label: 'Blog', position: 'left' },
           {
