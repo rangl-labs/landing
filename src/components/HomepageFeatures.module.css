@@ -9,3 +9,22 @@
   height: 200px;
   width: 200px;
 }
+
+.centerText{
+  text-align: center;
+  border: 3px;
+}
+
+.imgCurrent {
+  opacity: 1.0;
+}
+
+.imgPast {
+  opacity: 0.2;
+  transform: scale(0.9);
+}
+
+.imgPast:hover {
+  opacity: 1.0;
+  transform: scale(0.9);
+}

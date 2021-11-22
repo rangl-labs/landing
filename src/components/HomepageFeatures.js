@@ -1,51 +1,46 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './HomepageFeatures.module.css';
-import Image from '@theme/IdealImage';
+import React from "react";
+import clsx from "clsx";
+import styles from "./HomepageFeatures.module.css";
+import Image from "@theme/IdealImage";
 
-const FeatureList = [
+const featureList = [
   {
-    title: 'Generation Scheduling',
+    title: "Generation Scheduling",
     imageURL: "img/wind.jpg",
     link: "http://challenges.rangl.org/web/challenges/challenge-page/1/overview",
-    description: (
-      <>
-        Schedule a power system to run super-efficiently.
-      </>
-    ),
+    current: false,
+    description: <>Schedule a power system to run super-efficiently.</>,
   },
   {
-    title: 'Vehicle grid integration',
-    imageURL: "img/tesla.jpg",
-    link: "docs/challenges/vgi",
-    description: (
-      <>
-        Make electric vehicle charging work sustainably in a neighbourhood.
-      </>
-    ),
-  },
-  {
-    title: 'Net Zero Technology Centre challenge',
+    title: "Optimal Pathway to Net Zero challenge",
     imageURL: "img/nztc.jpg",
     link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
+    current: true,
+    description: <>Find the optimal pathway to a carbon neutral 2050.</>,
+  },
+  {
+    title: "Vehicle grid integration",
+    imageURL: "img/tesla.jpg",
+    link: "docs/challenges/vgi",
+    current: false,
     description: (
-      <>
-        Find the optimal pathway to a carbon neutral 2050.
-      </>
+      <>Make electric vehicle charging work sustainably in a neighbourhood.</>
     ),
   },
 ];
 
 function Feature({ imageURL, title, link, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={clsx("col col--4")}>
+      <div>
         <a href={link} target="_blank">
           <Image img={imageURL} />
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <a href={link} target="_blank"><h3>{title}</h3></a>
+        <a href={link} target="_blank">
+          <h3>{title}</h3>
+        </a>
         <p>{description}</p>
       </div>
     </div>
@@ -54,14 +49,35 @@ function Feature({ imageURL, title, link, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <>
+      <section className={styles.features}>
+        <div className="container">
+          <div>
+            <h2> Current Challenges </h2>
+          </div>
+          <div className="row">
+            {featureList.map((feature, idx) => {
+              return feature.current ? (
+                <Feature key={idx} {...feature} />
+              ) : null;
+            })}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section className={styles.features}>
+        <div className="container">
+          <div>
+            <h2> Past Challenges </h2>
+          </div>
+          <div className="row">
+            {featureList.map((feature, idx) => {
+              return !feature.current ? (
+                <Feature key={idx} {...feature} />
+              ) : null;
+            })}
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
