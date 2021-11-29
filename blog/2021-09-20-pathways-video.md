@@ -1,0 +1,9 @@
+---
+title: New video
+authors: rangL
+tags: [nztc, challenges]
+---
+
+Having decided the general shape of the challenge, today the project group agreed to begin working in an agile fashion through a GitHub project board. 
+
+Excitingly, RangL was also invited to be part of the Net Zero Technology Centre's virtual showcase "Road to Glasgow: Destination Net Zero" at the 26th UN Climate Change Conference of the Parties (COP26) in Glasgow in November 2021. A virtual exhibition booth will include "meet the developers" live sessions and a project video explaining the Pathways to Net Zero challenge.  
