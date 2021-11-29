@@ -1,5 +1,5 @@
 ---
-title: New video
+title: COP26 and challenge video
 authors: rangL
 tags: [nztc, challenges]
 ---
