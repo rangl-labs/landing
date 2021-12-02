@@ -12,7 +12,7 @@ const featureList = [
     description: <>Schedule a power system to run super-efficiently.</>,
   },
   {
-    title: "Pathways to Net Zero challenge",
+    title: "Pathways to Net Zero",
     imageURL: "img/nztc.jpg",
     link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
     current: true,
