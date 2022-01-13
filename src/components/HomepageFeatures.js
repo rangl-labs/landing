@@ -7,14 +7,14 @@ const featureList = [
   {
     title: "Generation Scheduling",
     imageURL: "img/wind.jpg",
-    link: "http://challenges.rangl.org/web/challenges/challenge-page/1/overview",
+    link: null,
     current: false,
     description: <>Schedule a power system to run super-efficiently.</>,
   },
   {
     title: "Pathways to Net Zero",
     imageURL: "img/nztc.jpg",
-    link: "http://challenges.rangl.org/web/challenges/challenge-page/8/overview",
+    link: "https://challenges.rangl.org/web/challenges/challenge-page/1/overview",
     current: true,
     description: <>Find the optimal pathway to a carbon neutral 2050.</>,
   },
@@ -38,9 +38,9 @@ function Feature({ imageURL, title, link, description }) {
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-        <a href={link} target="_blank">
+        {link ? <a href={link} target="_blank">
           <h3>{title}</h3>
-        </a>
+        </a> : <h3>{title}</h3>}
         <p>{description}</p>
       </div>
     </div>
