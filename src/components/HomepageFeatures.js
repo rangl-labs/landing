@@ -14,8 +14,8 @@ const featureList = [
   {
     title: "Pathways to Net Zero",
     imageURL: "img/nztc.jpg",
-    link: "https://challenges.rangl.org/web/challenges/challenge-page/1/overview",
-    current: true,
+    link: "https://github.com/rangl-labs/netzerotc",
+    current: false,
     description: <>Find the optimal pathway to a carbon neutral 2050.</>,
   },
   {
