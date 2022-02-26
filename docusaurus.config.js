@@ -1,45 +1,45 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-const math = require('remark-math');
-const katex = require('rehype-katex');
+const math = require("remark-math");
+const katex = require("rehype-katex");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'RangL',
-  tagline: 'A competition platform to accelerate progress in data-driven control problems',
-  url: 'https://rangl.org',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/rangl-logo.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-  plugins: ['@docusaurus/plugin-ideal-image'],
+  title: "RangL",
+  tagline:
+    "A competition platform to accelerate progress in data-driven control problems",
+  url: "https://rangl.org",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/rangl-logo.png",
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
+  plugins: ["@docusaurus/plugin-ideal-image"],
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           remarkPlugins: [math],
           rehypePlugins: [katex],
           // Please change this to your repo.
-          editUrl: 'https://github.com/rangl-labs/landing',
+          editUrl: "https://github.com/rangl-labs/landing",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/rangl-labs/landing',
+          editUrl: "https://github.com/rangl-labs/landing",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -47,10 +47,10 @@ const config = {
 
   stylesheets: [
     {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css',
+      href: "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css",
       integrity:
-        'sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc',
-      crossorigin: 'anonymous',
+        "sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc",
+      crossorigin: "anonymous",
     },
   ],
 
@@ -58,28 +58,33 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'RangL',
+        title: "RangL",
         logo: {
-          alt: 'RangL Logo',
-          src: 'img/rangl-logo.png',
+          alt: "RangL Logo",
+          src: "img/rangl-logo.png",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'In Development',
+            type: "doc",
+            docId: "intro",
+            position: "left",
+            label: "In Development",
           },
-          { to: 'https://www.turing.ac.uk/research/research-projects/ai-control-problems', label: 'Blog', position: 'left' },
+          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: 'https://github.com/rangl-labs/landing',
-            label: 'GitHub',
-            position: 'right',
+            to: "https://www.turing.ac.uk/research/research-projects/ai-control-problems",
+            label: "Turing site",
+            position: "left",
+          },
+          {
+            href: "https://github.com/rangl-labs/landing",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         // links: [
         //   {
         //     title: 'Docs',
