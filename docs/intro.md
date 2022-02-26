@@ -8,6 +8,6 @@ Welome to RangL, a competition platform to accelerate progress in data-driven co
 
 So far we have worked on these challenges:
 
-1. [Net Zero Technology Centre (NZTC)](https://challenges.rangl.org/web/challenges/challenge-page/1/overview)
-2. [Generation scheduling¢](https://gitlab.com/rangl-public/generation-scheduling-challenge-january-2021)
-3. [Vehicle grid integration](challenges/vgi.md)
+1. [Pathways to Net Zero](https://github.com/rangl-labs/netzerotc)
+3. [Generation scheduling](https://gitlab.com/rangl-public/generation-scheduling-challenge-january-2021)
+4. [Vehicle grid integration](challenges/vgi.md)
