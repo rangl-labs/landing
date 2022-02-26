@@ -7,7 +7,7 @@ const featureList = [
   {
     title: "Generation Scheduling",
     imageURL: "img/wind.jpg",
-    link: null,
+    link: "https://gitlab.com/rangl-public/generation-scheduling-challenge-january-2021",
     current: false,
     description: <>Schedule a power system to run super-efficiently.</>,
   },
