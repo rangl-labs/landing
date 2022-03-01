@@ -4,7 +4,7 @@ authors: RangL
 tags: [nztc, challenges]
 ---
 
-The challenge took place from 17th to 31st January 2022. After consideration of both the leaderboard and the provided executive summaries, the selection panel chose three joint winners:
+The Pathways to Net Zero challenge took place from 17th to 31st January 2022. After consideration of both the leaderboard and the provided executive summaries, the selection panel chose three joint winners:
 
 * **Epsilon-greedy** (Delft University of Technology)
 * **VUltures** (Vrije Universiteit Amsterdam)
