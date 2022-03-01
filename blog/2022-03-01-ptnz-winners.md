@@ -14,4 +14,4 @@ Additionally, Team **AIM-Mate** were highly commended for their efforts.
 
 The [Net Zero Technology Centre](https://www.netzerotc.com), who sponsored the challenge, will hold a webinar on 28th March 2022 with the winning teams.
 
-Thank you to all who participated!
+The final leaderboards can be viewed at the [challenge repository](https://github.com/rangl-labs/netzerotc). Thank you to all who participated!
