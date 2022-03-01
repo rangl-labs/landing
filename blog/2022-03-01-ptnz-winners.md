@@ -12,4 +12,6 @@ The Pathways to Net Zero challenge took place from 17th to 31st January 2022. Af
 
 Additionally, Team **AIM-Mate** were highly commended for their efforts.
 
-Thank you to all who participated and congratulations to the winners!
+The [Net Zero Technology Centre](https://www.netzerotc.com), who sponsored the challenge, will hold a webinar on 28th March 2022 with the winning teams.
+
+Thank you to all who participated!
