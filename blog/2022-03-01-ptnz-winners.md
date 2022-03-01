@@ -1,6 +1,6 @@
 ---
 title: Pathways to Net Zero - Winners announced
-authors: RangL
+authors: rangL
 tags: [nztc, challenges]
 ---
 
