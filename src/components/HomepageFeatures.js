@@ -38,9 +38,13 @@ function Feature({ imageURL, title, link, description }) {
         </a>
       </div>
       <div className="text--center padding-horiz--md">
-        {link ? <a href={link} target="_blank">
+        {link ? (
+          <a href={link} target="_blank">
+            <h3>{title}</h3>
+          </a>
+        ) : (
           <h3>{title}</h3>
-        </a> : <h3>{title}</h3>}
+        )}
         <p>{description}</p>
       </div>
     </div>
@@ -54,6 +58,16 @@ export default function HomepageFeatures() {
         <div className="container">
           <div>
             <h2> Current Challenges </h2>
+            <center>
+              <i>
+                {" "}
+                We are currently working on the next challenge. Consider
+                contacting us at <a href="mailto:j.moriarty@qmul.ac.uk">
+                  this email
+                </a>{" "}
+                if you are interested in volunteering!
+              </i>
+            </center>
           </div>
           <div className="row">
             {featureList.map((feature, idx) => {
